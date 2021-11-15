@@ -1,0 +1,5 @@
+url=jdbc:mysql://localhost:3306/man
+driverName=com.mysql.jdbc.Driver
+username=root
+password=1214*$hOz0
+queFilePath=ManagerQuery.xml

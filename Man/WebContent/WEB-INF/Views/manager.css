@@ -1,0 +1,129 @@
+@charset "UTF-8";
+
+body {
+	background-color:FloralWhite;
+
+}
+
+h4
+{
+	text-align: center;
+	font-family: "Verdana"; 
+	font-size: 18pt;
+	color: Black;
+	text-decoration: bold;
+	
+}
+
+h5
+{
+	text-align: center;
+	font-family: "Verdana"; 
+	font-size: 14pt;
+	color: Cornflowerblue;
+	text-decoration: bold;
+	
+}
+
+#table_man{
+	
+	font-family: "Arial"; 
+	color: Black;
+	font-size: 12pt;
+	text-decoration: bold;
+	text-align:left;
+	
+	width:100%
+}
+
+#button_new_man{
+		border: 0.5pt;
+		padding: 12px 12px;
+		text-align: center;
+		text-decoration: bold;
+		font-size: 14px;
+		border-radius:15px;
+}
+ 
+
+ .btn1{
+	float: left;
+	background-color: SpringGreen;
+	color: Black;
+ }
+ 
+ .btn2{
+	 float: right;
+	 background-color: SteelBlue;
+	 color: White;
+ }
+ 
+ .btn3{
+	 background-color:Red;
+	 color: White;
+ }
+ #button_s_man{
+		border: 0.2pt;
+		padding: 12px 5px;
+		text-align: center;
+		text-decoration: bold;
+		font-size: 12px;
+		border-radius:6px;
+		
+		
+}
+
+ .btn4{	 
+	 background-color:LightSteelBlue;
+	 color: Black;
+ }
+ 
+ 
+ input[type = text] { 
+	width: 100%;
+	margin: 8px;
+	padding: 12px;
+ }
+ 
+#tr_hov {
+	background-color:#0099ff;
+	text-align:center;
+}
+ .nmd1{
+ 	background-color:RoyalBlue;
+ 	border: 0.5pt;
+	padding: 12px 12px;
+	border-radius:15px;
+ }
+ 
+ .nmd2{
+ 	background-color:Beige;
+ 	border: 0.5pt;
+	padding: 12px 12px;
+	border-radius:15px;
+	
+ }
+ 
+ .nmd3{
+ 	background-color:Black;
+ 	border:0.2px;
+ 	padding:6px 6px;
+ 	border-radius:12px;
+ }
+ 
+ a:link, a:visited {
+  background-color: LightGreen;
+  color: Black;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: bold;
+  display: inline-block;
+  border-radius:15px;
+}
+
+a:hover, a:active {
+  background-color: LawnGreen;
+  border-radius:15px;
+}
+ 
+ 

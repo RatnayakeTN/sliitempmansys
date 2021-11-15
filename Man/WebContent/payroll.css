@@ -1,0 +1,64 @@
+@charset "UTF-8";
+body {
+	background-color:Black;
+
+}
+
+h4
+{
+	text-align: center;
+	font-family: "Verdana"; 
+	font-size: 18pt;
+	color: Black;
+	text-decoration: bold;
+	
+}
+
+
+#table_payroll{
+	
+	font-family: "Arial"; 
+	color: #003366;
+	font-size: 12pt;
+	text-decoration: bold;
+	text-align:left-align;
+}
+
+#button_payroll{
+		border: 0.5pt;
+		padding: 12px 12px;
+		text-align: center;
+		text-decoration: bold;
+		font-size: 14px;
+		border-radius:15px;
+		background-color: SpringGreen;
+		color: Black;
+}
+ 
+ 
+ input[type = text] { 
+	width: 100%;
+	margin: 8px;
+	padding: 10px;
+	border: 2px solid black;
+ 	border-radius: 4px;
+ 	background-color: #ffffb3;
+  	color: Black;
+ }
+ 
+
+ 
+ .nmd1{
+ 	background-color:#4d94ff;
+ 	border: 0.5pt;
+	padding: 6px 6px;
+	border-radius:17px;
+ }
+ 
+ .nmd2{
+ 	background-color:#f2f2f2;
+ 	border: 0.5pt;
+	padding: 12px 12px;
+	border-radius:15px;
+	float: middle;
+ }

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- T181702726 -->
+<Querys>
+	<!-- CREATE TABLE MANAGER Query -->
+	<query id="create_man_table">
+        <![CDATA[
+            CREATE TABLE manager(
+				managerID varchar(30) not null,
+				managerName varchar(20),
+				department varchar(20),
+				address  varchar(50),
+				qualifications varchar(30),
+				gender varchar(10) DEFAULT 'Male',
+				primary key (managerID)
+			)
+        ]]>
+	</query>
+
+	<!-- DROP TABLE MANAGER Query -->
+	<query id="drop_table">
+         <![CDATA[        
+            DROP TABLE IF EXISTS manager 
+        ]]>
+	</query>
+
+	<!-- Select all manager properties Query -->
+	<query id="insert_man">
+        <![CDATA[
+          	insert into manager (managerID, managerName, department, address, qualifications, gender) 
+          	values (?, ?, ?, ?, ?, ?)
+        ]]>
+	</query>
+
+	<!-- Select a particular manager by id Query -->
+	<query id="man_by_id">
+         <![CDATA[        
+            select * from manager where manager.managerID = ?
+        ]]>
+	</query>
+
+	<!-- Select all managers Query -->
+	<query id="all_managers">
+         <![CDATA[        
+            select * from manager
+        ]]>
+	</query>
+
+	<!-- Delete a particular manager by id Query -->
+	<query id="remove_man">
+         <![CDATA[        
+            delete from manager where manager.managerID = ?
+        ]]>
+	</query>
+	
+	<!-- Update a particular manager by id Query -->
+	<query id="update_man">
+         <![CDATA[        
+            update manager as m 
+            set m.managerName = ?, m.department = ?, m.address = ?, m.qualifications = ?, m.gender = ? 
+            where m.managerID = ?
+        ]]>
+	</query>
+	
+		<!-- Get managerIDs Query -->
+	<query id="man_ids">
+         <![CDATA[        
+            select m.managerID from manager as m
+        ]]>
+	</query>
+
+</Querys>
